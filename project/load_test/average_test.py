@@ -12,9 +12,9 @@ class APIUser(HttpUser):
         data = {"review": "Hello world this is the best product ever!"}
 
         # Send a POST request to the '/predict' endpoint
-        with self.client.post("/predict", 
+        with self.client.post("/predict",
                               data=json.dumps(data),  # Convert data to JSON string
-                              headers=headers, 
+                              headers=headers,
                               catch_response=True  # This allows us to mark the response as success or failure
                              ) as response:
             if response.status_code == 200:
