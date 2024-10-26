@@ -15,7 +15,8 @@ LABEL_CLASS_TO_NAME = {
 }
 
 
-WANDB_MODEL_REGISTRY_MODEL_NAME = "hughsun/model-registry/review-sentiment-analysis-dev:v3"
+WANDB_OLD_MODEL_NAME = "hughsun/model-registry/review-sentiment-analysis-dev:v2"
+WANDB_NEW_MODEL_NAME = "hughsun/model-registry/review-sentiment-analysis-dev:v3"
 
 # NOTE: Ensure that you set the API Key within Github Codespaces secrets
 # in the settings page of your repository!
